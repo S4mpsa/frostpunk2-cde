@@ -2,6 +2,8 @@
 !*.py
 !*.txt
 !*.md
+!Illustrations/
+!*.png
 !.gitignore
 !Scenarios/Shared/Levels/Base/IdeaTree_Nodes.*
 !Scenarios/Shared/Configs/Research/ResearchSubCategories/DA_EconomyResearchSubCategory.*

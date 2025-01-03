@@ -32,6 +32,8 @@ modName = modFile.replace(".txt","")
 with open(modFile) as f:
     with open(".gitignore", "w") as gi:
         gi.write("*\n")
+        gi.write("!Illustrations/*\n")
+        gi.write("!*.png\n")
         gi.write("!.gitignore\n")
         gi.write("!*.py\n")
         gi.write("!*.txt\n")
